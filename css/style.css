@@ -2,7 +2,8 @@ body {
 	font-family: 'Playfair Display';
 	xbackground-color: black;
 	color: #ffffff;
-	text-align: center;
+	xtext-align: center;
+	margin: auto;
 	font-size: 16px;
 background-image: url("https://c2.staticflickr.com/2/1615/24515922541_b37871eaf2_b.jpg");
 }
@@ -89,7 +90,7 @@ h1, h2, h3, h4 {
 }
 .sectiontitle {
 	font-size: 24px;
-	color: #F11731;
+	color:#F11731;
 }
 .starter {
 	padding: 30px 20px 30px 20px;
@@ -102,9 +103,6 @@ h1, h2, h3, h4 {
 
 }
 
-.circle {
-	border-radius: 50%;
-}
 
 p {
 	line-height: 34px;
