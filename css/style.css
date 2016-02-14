@@ -125,10 +125,15 @@ p {
 	padding: 10%;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	width: 100%;
 }
 
 .title {
 	font-size: 60px;
+}
+
+.container-fluid {
+	width: 100%;
 }
 
 
