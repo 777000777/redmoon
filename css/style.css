@@ -119,20 +119,6 @@ p {
 	background-color: black;
 }
 
-@media (max-width: 400px) {
-
-.row {
-	padding: 10%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.title {
-	font-size: 60px;
-}
-
-
-}
 
 
 
