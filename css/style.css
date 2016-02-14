@@ -1,10 +1,15 @@
 body {
 font-family: 'Source Serif Pro', serif;
-xbackground-color: black;
 	color: #ffffff;
-	xtext-align: center;
 	font-size: 16px;
 background-image: url("https://c2.staticflickr.com/2/1615/24515922541_b37871eaf2_b.jpg");
+}
+
+.sm {
+	font-size: 13px;
+}
+.food {
+	color: #FF4641;
 }
 
 a {
@@ -42,9 +47,9 @@ h1, h2, h3, h4 {
 }
 
 .intro {
+	font-family: helvetica;
 	font-size: 24px;
-	font-weight: 400;
-	padding: 10px 90px 10px 90px;
+	font-weight: 100;
 	line-height: 34px;
 	margin-bottom: 80px;
 	color: #ffffff;
@@ -112,4 +117,24 @@ p {
 
 .navbar-inverse .navbar-toggle {
 	background-color: black;
+}
+
+@media only screen and (min-width : 320px) {
+
+.row {
+	padding: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.title {
+	font-size: 48px;
+}
+
+.container-fluid {
+	width: 100%;
+}
+
+
 }
