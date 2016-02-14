@@ -119,22 +119,28 @@ p {
 	background-color: black;
 }
 
-@media only screen and (max-width : 320px) {
+@media (max-width: 400px) {
 
 .row {
 	padding: 10%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width: 100%;
 }
 
 .title {
-	font-size: 48px;
+	font-size: 60px;
+}
+ 
+ p {
+ 	font-size: 15px;
+ 	line-height: 24px;
+ }
+ .sm {
+ 	line-height: 24px;
+ }
+
 }
 
-.container-fluid {
-	width: 100%;
-}
 
 
-}
+
